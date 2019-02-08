@@ -11,7 +11,7 @@ RUN apt-get update -y && apt-get install -y \
     git
 
 
-RUN pip install --upgrade pip && pip install \
+RUN pip install \
     lxml \
     xvfbwrapper \
     bs4 \
