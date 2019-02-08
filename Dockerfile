@@ -34,4 +34,4 @@ EXPOSE 5000
 #ENTRYPOINT [""]
 
 # run app
-CMD (service xvfb start; export DISPLAY=:10; python get_dc_data.py)
+CMD python get_dc_data.py

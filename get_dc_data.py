@@ -4,10 +4,10 @@ import json
 import time
 
 
-
 all_links = {}
 REMAINING = True
 page = 1
+dryscrape.start_xvfb()
 session = dryscrape.Session()
 time.sleep(5)
 dc_url = 'http://opendata.dc.gov'
